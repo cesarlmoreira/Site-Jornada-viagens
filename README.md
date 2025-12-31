@@ -34,7 +34,7 @@ Estilização visual, definição de layouts responsivos e implementação de um
 Definição criteriosa de breakpoints para adaptação progressiva do layout em smartphones, tablets e desktops.
 
 <br>
-<h2>🧩 Layouts com Flexbox, CSS Grid, Position e Componentização</h2>
+<h2>🧩 Layouts com Flexbox, CSS Grid e Componentização</h2>
 
 <strong>CSS Flexbox: </strong>
 <p>Utilizado para alinhamento, distribuição e organização de elementos em layouts unidimensionais, como navegação, cabeçalhos e formulários, garantindo flexibilidade no controle de espaçamento e alinhamento.</p>
