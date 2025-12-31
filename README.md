@@ -40,7 +40,7 @@ Fontes: Utilização da fonte Montserrat (Variable Font) para garantir identidad
 Organização: Estrutura de pastas separando assets (fontes, imagens) dos arquivos de código.
 
 📂 Estrutura de Pastas
-
+```
 ├── index.html          # Markup semântico principal
 ├── /assets
 │   ├── /fonts          # Typography (Variable fonts)
@@ -52,3 +52,4 @@ Organização: Estrutura de pastas separando assets (fontes, imagens) dos arquiv
     ├── packages.css    # Grid layout para cards
     ├── form.css        # Estilização de inputs/buttons
     └── footer.css
+```
