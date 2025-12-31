@@ -1,5 +1,5 @@
 ## Projeto de Site - Jornada Viagens
-hr
+
 
 🌐 # Projeto de Layout Responsivo — Jornada Viagens
 
@@ -10,7 +10,7 @@ O objetivo foi implementar uma interface aderente a um protótipo de alta fideli
 
 O layout foi construído com base em um protótipo desenvolvido no Figma, utilizado como referência para definição de hierarquia visual, espaçamentos, tipografia, cores e composição dos componentes da interface.
 
-🖌️ Protótipo (Figma): [Visite o link do projeto] (https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&p=f&t=1thmVfPRENOrp0ez-0)
+🖌️ Protótipo (Figma): [Texto do link]([https://github.com/usuario/repositorio](https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&p=f&t=1thmVfPRENOrp0ez-0)) [Visite o link do projeto] 
 
 🚀 # Tecnologias Utilizadas
 
