@@ -1,4 +1,4 @@
-<h1>Projeto de Site - Jornada Viagens</h1>
+<h1>Projeto de Desenvolvimento de Site - Jornada Viagens</h1>
 
 <br>
 <h2>🌐 Projeto de Layout Responsivo</h2>
