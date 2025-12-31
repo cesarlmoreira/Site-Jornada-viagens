@@ -1,7 +1,7 @@
 ## Projeto de Site - Jornada Viagens
 
 
-#🌐 Projeto de Layout Responsivo — Jornada Viagens
+🌐 <h2>Projeto de Layout Responsivo — Jornada Viagens</h2>
 
 Este projeto contempla o desenvolvimento de uma landing page institucional para o setor de turismo, com foco na aplicação de boas práticas de Design Responsivo, arquitetura CSS modular e desenvolvimento front-end orientado à acessibilidade.
 O objetivo foi implementar uma interface aderente a um protótipo de alta fidelidade, assegurando consistência visual, escalabilidade, performance e adaptação fluida entre dispositivos móveis, tablets e desktops.
