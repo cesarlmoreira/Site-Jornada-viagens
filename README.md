@@ -1,45 +1,87 @@
 ## Projeto de Site - Jornada Viagens
+hr
 
-🌐 Projeto de Layout Responsivo - Jornada Viagens
-Este projeto consiste no desenvolvimento de uma landing page de viagens, com foco na aplicação de técnicas de Responsividade e Arquitetura CSS Modular. O objetivo principal foi criar uma interface fiel ao design original, que se adapta fluidamente a diferentes tamanhos de tela (Mobile, Tablet e Desktop).
+🌐 # Projeto de Layout Responsivo — Jornada Viagens
 
-🎨 Design do Projeto
-O layout foi desenvolvido com base no protótipo disponibilizado no Figma. Você pode conferir o design original no link abaixo:
+Este projeto contempla o desenvolvimento de uma landing page institucional para o setor de turismo, com foco na aplicação de boas práticas de Design Responsivo, arquitetura CSS modular e desenvolvimento front-end orientado à acessibilidade.
+O objetivo foi implementar uma interface aderente a um protótipo de alta fidelidade, assegurando consistência visual, escalabilidade, performance e adaptação fluida entre dispositivos móveis, tablets e desktops.
 
-🖌️ Protótipo (Figma): Acesse o Projeto Jornada Viagens
+🎨 # Design do Projeto
 
-🚀 Tecnologias Utilizadas
-HTML5: Estruturação semântica do conteúdo.
+O layout foi construído com base em um protótipo desenvolvido no Figma, utilizado como referência para definição de hierarquia visual, espaçamentos, tipografia, cores e composição dos componentes da interface.
 
-CSS3: Estilização visual e layouts.
+🖌️ Protótipo (Figma): [Visite o link do projeto] (https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&p=f&t=1thmVfPRENOrp0ez-0)
 
-📋 Atividades e Habilidades Demonstradas
-1. 📱 Design Responsivo (Mobile First)
-O projeto foi estruturado para oferecer a melhor experiência em qualquer dispositivo.
+🚀 # Tecnologias Utilizadas
 
-Adaptação de Mídia: Uso de diferentes versões de imagens para otimização e direção de arte (<picture>, srcset), utilizando arquivos específicos para cada tela (ex: hero-mobile.jpg, hero-desktop.jpg).
+HTML5
+Estruturação semântica do conteúdo, com uso adequado de elementos semânticos, visando acessibilidade e SEO.
 
-Media Queries: Ajuste preciso de breakpoints para celulares, tablets e desktops.
+CSS3
+Estilização visual, definição de layouts responsivos e implementação de uma arquitetura modular, escalável e reutilizável.
 
-2. 🎨 Arquitetura CSS Modular
-O CSS foi organizado em módulos baseados nas seções da página, facilitando a manutenção e escalabilidade:
+📋 # Atividades e Competências Técnicas Demonstradas
 
-header.css: Estilos do cabeçalho e navegação.
+📱 Design Responsivo (Mobile First)
 
-hero.css: Estilização da área de destaque principal.
+O projeto foi desenvolvido seguindo a abordagem Mobile First, priorizando desempenho, usabilidade e compatibilidade entre dispositivos.
 
-packages.css: Grid de pacotes de viagem.
+Otimização e direção de arte de imagens:
+Implementação de múltiplas versões de imagens, com arquivos específicos para diferentes resoluções, garantindo qualidade visual e melhor performance de carregamento.
 
-form.css: Estilização de formulários.
+Media Queries:
+Definição criteriosa de breakpoints para adaptação progressiva do layout em smartphones, tablets e desktops.
 
-global.css: Variáveis (CSS Variables), resets e tipografia padrão.
+🧩 # Layouts com Flexbox, CSS Grid, Position e Componentização
 
-3. ✒️ Tipografia e Assets
-Fontes: Utilização da fonte Montserrat (Variable Font) para garantir identidade visual moderna.
+CSS Flexbox:
+Utilizado para alinhamento, distribuição e organização de elementos em layouts unidimensionais, como navegação, cabeçalhos e formulários, garantindo flexibilidade no controle de espaçamento e alinhamento.
 
-Organização: Estrutura de pastas separando assets (fontes, imagens) dos arquivos de código.
+CSS Grid Layout:
+Aplicado na construção de layouts bidimensionais, como grids de cards e seções estruturais da página, proporcionando maior previsibilidade, controle de áreas e adaptação eficiente entre diferentes resoluções.
 
-📂 Estrutura de Pastas
+Componentização de Interface:
+Estruturação da página em componentes reutilizáveis (ex.: header, cards, seções de pacotes, formulários), com estilos encapsulados por módulo CSS, promovendo consistência visual, reutilização de código e facilidade de manutenção.
+
+🎨 # Arquitetura CSS Modular
+
+O CSS foi estruturado de forma modular e orientada por responsabilidade, promovendo clareza, reutilização e facilidade de manutenção:
+
+global.css — Reset de estilos, variáveis CSS e regras globais
+
+header.css — Cabeçalho e navegação responsiva
+
+hero.css — Seção de destaque principal
+
+packages.css — Grid responsivo de pacotes
+
+form.css — Estilização de formulários e componentes interativos
+
+♿ # Acessibilidade e Usabilidade
+
+Uso consistente de HTML semântico para suporte a leitores de tela.
+
+Associação correta de label e input em formulários.
+
+Hierarquia lógica de títulos e seções.
+
+Atenção a contraste, legibilidade e navegação via teclado.
+
+🗂️ # Gerenciamento de Assets
+
+Organização de diretórios:
+Estrutura de pastas clara e padronizada, separando arquivos de código dos recursos estáticos.
+
+Otimização de imagens:
+Uso de imagens em diferentes resoluções e formatos adequados para reduzir tempo de carregamento.
+
+Manutenibilidade e escalabilidade:
+Padronização de nomenclatura e organização visando manutenção e evolução do projeto.
+
+Preparação para ambientes produtivos:
+Estrutura compatível com processos de build, versionamento e deploy.
+
+📂 # Estrutura de Pastas
 ```
 ├── index.html          # Markup semântico principal
 ├── /assets
