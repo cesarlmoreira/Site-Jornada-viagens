@@ -12,7 +12,7 @@ O layout foi construído com base em um protótipo desenvolvido no Figma, utiliz
 
 🖌️ Protótipo (Figma):  [Link do projeto](https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&p=f&t=1thmVfPRENOrp0ez-0)
 
-🚀 <h2>Tecnologias Utilizadas</h2>
+<h2>🚀 Tecnologias Utilizadas</h2>
 
 HTML5
 Estruturação semântica do conteúdo, com uso adequado de elementos semânticos, visando acessibilidade e SEO.
