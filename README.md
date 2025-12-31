@@ -1,18 +1,18 @@
 <h1>Projeto de Site - Jornada Viagens</h1>
 
 
-🌐 <h2>Projeto de Layout Responsivo — Jornada Viagens</h2>
+<h2>🌐 Projeto de Layout Responsivo</h2>
 
 Este projeto contempla o desenvolvimento de uma landing page institucional para o setor de turismo, com foco na aplicação de boas práticas de Design Responsivo, arquitetura CSS modular e desenvolvimento front-end orientado à acessibilidade.
 O objetivo foi implementar uma interface aderente a um protótipo de alta fidelidade, assegurando consistência visual, escalabilidade, performance e adaptação fluida entre dispositivos móveis, tablets e desktops.
 
-🎨 # Design do Projeto
+<h2>🎨 Design do Projeto</h2>
 
 O layout foi construído com base em um protótipo desenvolvido no Figma, utilizado como referência para definição de hierarquia visual, espaçamentos, tipografia, cores e composição dos componentes da interface.
 
 🖌️ Protótipo (Figma):  [Link do projeto](https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&p=f&t=1thmVfPRENOrp0ez-0)
 
-🚀 # Tecnologias Utilizadas
+🚀 <h2>Tecnologias Utilizadas</h2>
 
 HTML5
 Estruturação semântica do conteúdo, com uso adequado de elementos semânticos, visando acessibilidade e SEO.
@@ -20,9 +20,7 @@ Estruturação semântica do conteúdo, com uso adequado de elementos semântico
 CSS3
 Estilização visual, definição de layouts responsivos e implementação de uma arquitetura modular, escalável e reutilizável.
 
-📋 # Atividades e Competências Técnicas Demonstradas
-
-📱 Design Responsivo (Mobile First)
+<h2>📋 Atividades e Competências Técnicas Demonstradas</h2>
 
 O projeto foi desenvolvido seguindo a abordagem Mobile First, priorizando desempenho, usabilidade e compatibilidade entre dispositivos.
 
@@ -32,7 +30,7 @@ Implementação de múltiplas versões de imagens, com arquivos específicos par
 Media Queries:
 Definição criteriosa de breakpoints para adaptação progressiva do layout em smartphones, tablets e desktops.
 
-🧩 # Layouts com Flexbox, CSS Grid, Position e Componentização
+<h2>🧩 Layouts com Flexbox, CSS Grid, Position e Componentização</h2>
 
 CSS Flexbox:
 Utilizado para alinhamento, distribuição e organização de elementos em layouts unidimensionais, como navegação, cabeçalhos e formulários, garantindo flexibilidade no controle de espaçamento e alinhamento.
@@ -43,7 +41,7 @@ Aplicado na construção de layouts bidimensionais, como grids de cards e seçõ
 Componentização de Interface:
 Estruturação da página em componentes reutilizáveis (ex.: header, cards, seções de pacotes, formulários), com estilos encapsulados por módulo CSS, promovendo consistência visual, reutilização de código e facilidade de manutenção.
 
-🎨 # Arquitetura CSS Modular
+<h2>🎨 Arquitetura CSS Modular</h2>
 
 O CSS foi estruturado de forma modular e orientada por responsabilidade, promovendo clareza, reutilização e facilidade de manutenção:
 
@@ -57,7 +55,7 @@ packages.css — Grid responsivo de pacotes
 
 form.css — Estilização de formulários e componentes interativos
 
-♿ # Acessibilidade e Usabilidade
+<h2>♿ Acessibilidade e Usabilidade</h2>
 
 Uso consistente de HTML semântico para suporte a leitores de tela.
 
@@ -67,7 +65,7 @@ Hierarquia lógica de títulos e seções.
 
 Atenção a contraste, legibilidade e navegação via teclado.
 
-🗂️ # Gerenciamento de Assets
+<h2>🗂️ Gerenciamento de Assets</h2>
 
 Organização de diretórios:
 Estrutura de pastas clara e padronizada, separando arquivos de código dos recursos estáticos.
@@ -81,7 +79,8 @@ Padronização de nomenclatura e organização visando manutenção e evolução
 Preparação para ambientes produtivos:
 Estrutura compatível com processos de build, versionamento e deploy.
 
-📂 # Estrutura de Pastas
+Estrutura de Pastas:
+
 ```
 ├── index.html          # Markup semântico principal
 ├── /assets
