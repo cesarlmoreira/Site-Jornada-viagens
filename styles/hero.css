@@ -1,0 +1,172 @@
+.hero .hero-img,
+.bottom-hero .hero-img,
+.bottom-hero__packages .hero-img,
+.bottom-hero__contact .hero-img {
+  height: 400px;
+  width: 100%;
+}
+
+.hero .hero-img {
+  background: url("../assets/img/hero-mobile.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bottom-hero .hero-img {
+  background: url("../assets/img/hero-bottom-mobile.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0;
+  text-align: center;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Página do blog Jornada Viagens */
+.hero .hero-blog {
+  background: url("../assets/img/blogspot/hero-blog-mobile.jpg");
+  background-size: cover;
+  height: 460px;
+}
+
+/* PÁGINA DE DESTINOS */
+.bottom-hero__packages .hero-img {
+  background: url("../assets/img/packages/bottom-hero-mobile-packages.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* PÁGINA DE CONTATO */
+.hero .hero-contact {
+  background: url("../assets/img/contact/hero-contact-mobile.jpg");
+  background-size: cover;
+  height: 460px;
+}
+
+.bottom-hero__contact .hero-img {
+  background: url("../assets/img/contact/bottom-hero-contact-mobile.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .hero-img {
+    background: url("../assets/img/hero-tablet.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+
+  .bottom-hero .hero-img {
+    background: url("../assets/img/hero-bottom-tablet.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+
+  .hero h2 {
+    padding: 88px 60px;
+    font-size: 32px;
+  }
+
+  /* Página do blog Jornada Viagens */
+  .hero .hero-blog {
+    background: url("../assets/img/blogspot/hero-blog-tablet-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+
+  /* PÁGINA DE DESTINOS */
+  .bottom-hero__packages .hero-img {
+    background: url("../assets/img/packages/bottom-hero-tablet-desktop-packages.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+
+  /* PÁGINA DE CONTATO */
+  .hero .hero-contact {
+    background: url("../assets/img/contact/hero-contact-tablet.jpg");
+    background-size: cover;
+    height: 620px;
+  }
+
+  .bottom-hero__contact .hero-img {
+    background: url("../assets/img/contact/bottom-hero-tablet.jpg");
+    background-size: cover;
+    height: 620px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero .hero-img {
+    background: url("../assets/img/hero-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bottom-hero .hero-img {
+    background: url("../assets/img/hero-bottom-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+
+  .hero h2 {
+    padding: 104px 120px;
+  }
+
+  /* Página do blog Jornada Viagens */
+  .hero .hero-blog {
+    background: url("../assets/img/blogspot/hero-blog-tablet-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+
+  /* PÁGINA DE CONTATO */
+  .hero .hero-contact {
+    background: url("../assets/img/contact/hero-contact-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+  
+  .bottom-hero__contact .hero-img {
+    background: url("../assets/img/contact/bottom-hero-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom-hero .hero-img,
+  .bottom-hero__packages .hero-img {
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero h2 {
+    padding: 104px 225px;
+  }
+
+  /* Página do blog Jornada Viagens */
+  .hero .hero-blog {
+    background: url("../assets/img/blogspot/hero-blog-tablet-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+}

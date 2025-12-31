@@ -1,0 +1,298 @@
+.destinations {
+  width: 312px;
+  height: auto;
+  align-items: center;
+}
+
+.destinations .section-title,
+.destinations-packages .section-title,
+.form .section-title {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.destination-items header {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  position: static;
+  background-color: var(--background-primary-color);
+  text-align: left;
+}
+
+.img-item {
+  height: 360px;
+}
+
+.tokyo {
+  background: url("../assets/img/tokyo-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.item .osaka {
+  background: url("../assets/img/osaka-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.item h3 {
+  margin: 24px 0;
+}
+
+.item footer {
+  align-items: center;
+  text-align: center;
+  margin: 24px 0 40px 0;
+}
+
+.item footer a {
+  width: 312px;
+}
+
+/* Página do Blog */
+
+.content-tokyo .section-title,
+.destinations-packages .section-title,
+.form .section-title {
+  margin: 88px auto 56px auto;
+}
+
+.content-tokyo article div h3 {
+  margin: 32px 0 24px 0;
+}
+
+.content-tokyo article .accommodation-text {
+  margin-bottom: 24px;
+}
+
+.content-tokyo .vacation-tokyo {
+  background: url("../assets/img/blogspot/vacation-tokyo-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.content-tokyo .legend-img {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: var(--text-weight);
+  line-height: 28px;
+}
+
+.content-tokyo .alternative-text__tablet {
+  display: none;
+}
+
+.item .hiroshima {
+  background: url("../assets/img/blogspot/hiroshima-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.item .kyoto {
+  background: url("../assets/img/blogspot/kyoto-mobile.jpg");
+  background-size: cover;
+  background-position-x: right;
+}
+
+/* PÁGINA DE PACKAGES */
+.hero .hero-packages {
+  background: url("../assets/img/packages/hero-mobile.jpg") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations {
+    width: 648px;
+  }
+
+  .destinations .section-title {
+    width: 100%;
+  }
+
+  .img-item {
+    width: 648px;
+    height: 452px;
+  }
+
+  .item .tokyo {
+    background: url("../assets/img/tokyo-tablet-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item .osaka {
+    background: url("../assets/img/osaka-tablet-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item footer {
+    display: inline-block;
+  }
+
+  /* Página do Blog */
+  .content-tokyo__tablet {
+    display: flex;
+    gap: 24px;
+  }
+
+  .content-tokyo .first-title {
+    margin: 0 0 24px 0;
+  }
+
+  .content-tokyo__tablet div.img-item {
+    width: 312px;
+    height: 360px;
+  }
+
+  .content-tokyo .tokyo {
+    display: none;
+  }
+
+  .content-tokyo .tokyo-img {
+    background: url("../assets/img/blogspot/vacation-tokyo-bridge-tablet.jpg")
+      no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 648px;
+  }
+
+  .content-tokyo .alternative-text__mobile {
+    display: none;
+  }
+
+  .content-tokyo .alternative-text__tablet {
+    display: block;
+  }
+
+  .destinations-blog .destination-items .img-item {
+    width: 648px;
+    height: 300px;
+  }
+
+  .item .osaka-tablet {
+    background: url("../assets/img/blogspot/osaka-tablet.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item .hiroshima {
+    background: url("../assets/img/blogspot/hiroshima-tablet.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .item .kyoto {
+    background: url("../assets/img/blogspot/kyoto-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  /* PÁGINA DE PACKAGES */
+  .hero .hero-packages {
+    background: url("../assets/img/packages/hero-tablet.jpg") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-item {
+    width: 420px;
+    height: 452px;
+  }
+
+  .destination-items {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .item .button-osaka {
+    margin-top: 48px;
+  }
+
+  /* Página do Blog */
+
+  .content-tokyo__tablet div.img-item {
+    height: 360px;
+    width: 540px;
+  }
+
+  .content-tokyo .vacation-tokyo {
+    background: url("../assets/img/blogspot/vacation-tokyo-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content-tokyo .tokyo-img {
+    background: url("../assets/img/blogspot/vacation-tokyo-bridge-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 900px;
+  }
+
+  .destinations-blog .destination-items {
+    display: block;
+  }
+
+  .destinations-blog .destination-items .img-item {
+    height: 300px;
+    width: 900px;
+  }
+
+  /* PÁGINA DE PACKAGES */
+  .hero .hero-packages {
+    background: url("../assets/img/packages/hero-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations {
+    width: 900px;
+  }
+
+  .img-item {
+    width: 588px;
+    height: 452px;
+  }
+
+  .item .button-osaka {
+    margin-top: 24px;
+  }
+
+  /* Página do Blog */
+
+  .content-tokyo__tablet div.img-item {
+    height: 360px;
+    width: 588px;
+  }
+
+  .content-tokyo .tokyo-img {
+    background: url("../assets/img/blogspot/vacation-tokyo-bridge-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 1200px;
+  }
+
+  .destinations-blog .destination-items .img-item {
+    height: 300px;
+    width: 384px;
+  }
+
+  .destinations-blog .destination-items {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .item .kyoto {
+    background-position-x: right;
+  }
+}

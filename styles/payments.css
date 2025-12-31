@@ -1,0 +1,183 @@
+.image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "bag passport"
+    "people people";
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.bag,
+.pallace {
+  grid-area: bag;
+}
+
+.passport,
+.city {
+  grid-area: passport;
+}
+
+.people,
+.japanese {
+  grid-area: people;
+}
+
+.image-content .image {
+  width: 144px;
+  height: 254px;
+}
+
+.image-content .bag {
+  background: url("../assets/img/bag-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .passport {
+  background: url("../assets/img/passport-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .people {
+  background: url("../assets/img/people-mobile.jpg") no-repeat;
+  background-size: cover;
+  height: 182px;
+  width: 312px;
+}
+
+/* PÁGINA DO PACKAGES */
+
+.content-title__payment {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
+.image-content .pallace {
+  background: url("../assets/img/packages/pallace-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .city {
+  background: url("../assets/img/packages/city-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .japanese {
+  background: url("../assets/img/packages/japanese-tablet.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 182px;
+  width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-content .bag,
+  .image-content .passport,
+  .image-content .city,
+  .image-content .pallace {
+    width: 312px;
+    height: 254px;
+    background-position: center;
+  }
+
+  .image-content .people {
+    width: 648px;
+    height: 182px;
+    background: url("../assets/img/people-tablet-desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  /* PÁGINA DE PACKAGES */
+
+  .image-content .pallace {
+  background: url("../assets/img/packages/pallace-tablet.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .city {
+  background: url("../assets/img/packages/city-tablet.png") no-repeat;
+  background-size: cover;
+}
+
+.image-content .japanese {
+  background: url("../assets/img/packages/japanese-tablet.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 648px;
+  height: 182px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .payments,
+  .payments-packages {
+    display: grid;
+    grid-template-columns: 384px 1fr 1fr;
+    grid-template-areas:
+      "main-title main-title main-title"
+      "text bag passport"
+      ". people people";
+  }
+
+  .payments .section-title,
+  .payments-packages .section-title {
+    grid-area: main-title;
+  }
+
+  .payments .text-content,
+  .payments-packages .text-content {
+    grid-area: text;
+    padding-right: 24px;
+    align-self: center;
+  }
+
+  .payments .image-content .bag,
+  .payments-packages .image-content .pallace {
+    grid-area: bag;
+  }
+
+  .payments .image-content .passport,
+  .payments-packages .image-content .city {
+    grid-area: passport;
+  }
+
+  .payments .image-content .people,
+  .payments-packages .image-content .japanese {
+    grid-area: people;
+  }
+
+  .image-content .image {
+    width: 234px;
+  }
+
+  .image-content .people,
+  .image-content .japanese {
+    width: 492px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .image-content .image {
+    width: 383.5px;
+    height: 254px;
+  }
+
+  .image-content .people,
+  .image-content .japanese {
+    width: 790px;
+    height: 229px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .image-content .image {
+    width: 396px;
+    height: 322px;
+  }
+
+  .image-content .people,
+  .image-content .japanese {
+    width: 816px;
+  }
+}

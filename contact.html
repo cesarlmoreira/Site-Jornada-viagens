@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!"
+    />
+    <meta name="og:title" content="Entre em contato!" />
+    <meta
+      name="og:description"
+      content="Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!"
+    />
+    <meta
+      name="og:image"
+      content="https://cesarlmoreira.github.io/Jornada-viagens/"
+    />
+    <meta name="og:type" content="website" />
+    <meta
+      name="og:url"
+      content="https://cesarlmoreira.github.io/Jornada-viagens/"
+    />
+
+    <link rel="icon" href="./favicon-jornada-viagens.svg" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Jornada Viagens</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html" title="Voltar para a página inicial."
+        ><img
+          class="logo-mobile"
+          src="./assets/img/bussola-jornada-branca.png"
+          alt="Logo da Jornada Viagens." />
+        <img
+          class="logo-desktop"
+          src="./assets/img/bussola-texto-jornada-branco.png"
+          alt="Logo da Jornada Viagens."
+      /></a>
+      <div class="navigation-menu">
+        <label for="menu">
+          <img src="./assets/img/menu.png" alt="menu" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="list-links">
+            <li>
+              <a href="blog.html" target="_blank" title="Acessar o Blog."
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="packages.html"
+                target="_blank"
+                title="Acessar pacotes de viagens."
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li>
+              <a
+                class="active"
+                href="contact.html"
+                target="_blank"
+                title="Acessar contato."
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-img hero-contact">
+          <div class="hero-content">
+            <h1>Entre em contato!</h1>
+            <hr />
+            <p>
+              Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+              plantão para ajudar você!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="form">
+        <div>
+          <h2 class="section-title">Preencha o formulário:</h2>
+          <hr />
+          <p class="content-text">
+            Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+            problemas, trazer dicas e orientações objetivas para tornar sua
+            experiência o mais prazerosa e tranquila possível. Preencha seus
+            dados que vamos retornar seu contato conforme a urgência do seu
+            chamado. Pode confiar!
+          </p>
+        </div>
+        <div class="form-container">
+          <form action="success.html" method="get">
+            <label for="name" hidden>Nome</label>
+            <input
+              type="text"
+              id="name"
+              name="userName"
+              placeholder="Seu nome"
+              required
+            />
+
+            <div class="form-container__desktop">
+              <label for="phone" hidden>Telefone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="userPhone"
+                placeholder="Telefone"
+                pattern="[0-9]{11}"
+                required
+              />
+
+              <label for="email" hidden>Email</label>
+              <input
+                type="email"
+                id="email"
+                name="userEmail"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+
+            <label for="subject" hidden>Assunto</label>
+            <input
+              type="text"
+              id="subject"
+              name="userSubject"
+              placeholder="Assunto"
+              required
+            />
+            <div class="form-container__box">
+              <label for="subject-area">Assunto</label>
+              <textarea
+                name="user-subject-area"
+                id="subject-area"
+                name="userSubject-area"
+                required
+              ></textarea>
+            </div>
+            <button class="button-submit" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      <section class="bottom-hero__contact">
+        <div class="hero-img"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-desktop">
+        <img
+          src="./assets/img/logo-branco-jornada-footer.png"
+          alt="Logo na cor branca do Jornada Viagens."
+        />
+        <p class="footer-text">
+          Horário de atendimento: 08h - 20h (Segunda a Sábado)
+        </p>
+        <p>
+          Desenvolvido por Cesar Moreira. Projeto fictício sem fins comerciais.
+        </p>
+      </div>
+      <div>
+        <h3>Acesse nossas redes:</h3>
+        <div class="footer-links">
+          <a href="#" title="Contate-nos pelo WhatsApp." target="_blank"
+            ><img
+              src="./assets/img/logo-branco-whatsapp.png"
+              alt="Logo na cor branca do WhatsApp"
+          /></a>
+          <a href="#" title="Acesse nosso Instagram." target="_blank"
+            ><img
+              src="./assets/img/logo-branco-instagram.png"
+              alt="Logo na cor branca do Instagram."
+          /></a>
+          <a href="#" title="Acesse nosso Twitter." target="_blank"
+            ><img
+              src="./assets/img/logo-branco-twitter.png"
+              alt="Logo na cor branca do Twitter."
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
