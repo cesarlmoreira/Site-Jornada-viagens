@@ -101,3 +101,7 @@ Estrutura de Pastas:
     ├── form.css        # Estilização de inputs/buttons
     └── footer.css
 ```
+<br>
+<h2>🔗 Acesso ao Projeto</h2>
+
+O projeto está disponível para visualização no link: https://cesarlmoreira.github.io/Site-Jornada-viagens/
