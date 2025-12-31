@@ -1,3 +1,5 @@
+## Projeto de Site - Jornada Viagens
+
 🌐 Projeto de Layout Responsivo - Jornada Viagens
 Este projeto consiste no desenvolvimento de uma landing page de viagens, com foco na aplicação de técnicas de Responsividade e Arquitetura CSS Modular. O objetivo principal foi criar uma interface fiel ao design original, que se adapta fluidamente a diferentes tamanhos de tela (Mobile, Tablet e Desktop).
 
