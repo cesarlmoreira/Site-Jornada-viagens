@@ -3,90 +3,91 @@
 <br>
 <h2>🌐 Projeto de Layout Responsivo</h2>
 
-Este projeto contempla o desenvolvimento de uma landing page institucional para o setor de turismo, com foco na aplicação de boas práticas de Design Responsivo, arquitetura CSS modular e desenvolvimento front-end orientado à acessibilidade.
-O objetivo foi implementar uma interface aderente a um protótipo de alta fidelidade, assegurando consistência visual, escalabilidade, performance e adaptação fluida entre dispositivos móveis, tablets e desktops.
+<p>Este projeto contempla o desenvolvimento de uma landing page institucional para o setor de turismo, com foco na aplicação de boas práticas de Design Responsivo, arquitetura CSS modular e desenvolvimento front-end orientado à acessibilidade.
+O objetivo foi implementar uma interface aderente a um protótipo de alta fidelidade, assegurando consistência visual, escalabilidade, performance e adaptação fluida entre dispositivos móveis, tablets e desktops.</p>
 
 <br>
 <h2>🎨 Design do Projeto</h2>
 
-O layout foi construído com base em um protótipo desenvolvido no Figma, utilizado como referência para definição de hierarquia visual, espaçamentos, tipografia, cores e composição dos componentes da interface.
+<p>O layout foi construído com base em um protótipo desenvolvido no Figma, utilizado como referência para definição de hierarquia visual, espaçamentos, tipografia, cores e composição dos componentes da interface.</p>
 
-Protótipo (Figma):  [Link do projeto](https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&p=f&t=1thmVfPRENOrp0ez-0)
+<strong>Protótipo (Figma): </strong> [Link do projeto](https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&p=f&t=1thmVfPRENOrp0ez-0)
 
 <br>
 <h2>🚀 Tecnologias Utilizadas</h2>
 
-HTML5
+<strong>HTML5: </strong> 
 Estruturação semântica do conteúdo, com uso adequado de elementos semânticos, visando acessibilidade e SEO.
 
-CSS3
+<strong>CSS3: </strong>
 Estilização visual, definição de layouts responsivos e implementação de uma arquitetura modular, escalável e reutilizável.
 
 <br>
 <h2>📋 Atividades e Competências Técnicas Demonstradas</h2>
 
-O projeto foi desenvolvido seguindo a abordagem Mobile First, priorizando desempenho, usabilidade e compatibilidade entre dispositivos.
+<p>O projeto foi desenvolvido seguindo a abordagem Mobile First, priorizando desempenho, usabilidade e compatibilidade entre dispositivos.</p>
 
-Otimização e direção de arte de imagens:
-Implementação de múltiplas versões de imagens, com arquivos específicos para diferentes resoluções, garantindo qualidade visual e melhor performance de carregamento.
+<strong>Otimização e direção de arte de imagens:</strong>
+<p>Implementação de múltiplas versões de imagens, com arquivos específicos para diferentes resoluções, garantindo qualidade visual e melhor performance de carregamento.</p>
 
-Media Queries:
+<strong>Media Queries: </strong>
 Definição criteriosa de breakpoints para adaptação progressiva do layout em smartphones, tablets e desktops.
 
 <br>
 <h2>🧩 Layouts com Flexbox, CSS Grid, Position e Componentização</h2>
 
-CSS Flexbox:
-Utilizado para alinhamento, distribuição e organização de elementos em layouts unidimensionais, como navegação, cabeçalhos e formulários, garantindo flexibilidade no controle de espaçamento e alinhamento.
+<strong>CSS Flexbox: </strong>
+<p>Utilizado para alinhamento, distribuição e organização de elementos em layouts unidimensionais, como navegação, cabeçalhos e formulários, garantindo flexibilidade no controle de espaçamento e alinhamento.</p>
 
-CSS Grid Layout:
-Aplicado na construção de layouts bidimensionais, como grids de cards e seções estruturais da página, proporcionando maior previsibilidade, controle de áreas e adaptação eficiente entre diferentes resoluções.
+<strong>CSS Grid Layout: </strong>
+<p>Aplicado na construção de layouts bidimensionais, como grids de cards e seções estruturais da página, proporcionando maior previsibilidade, controle de áreas e adaptação eficiente entre diferentes resoluções.</p>
 
-Componentização de Interface:
-Estruturação da página em componentes reutilizáveis (ex.: header, cards, seções de pacotes, formulários), com estilos encapsulados por módulo CSS, promovendo consistência visual, reutilização de código e facilidade de manutenção.
+<strong>Componentização de Interface: </strong>
+<p>Estruturação da página em componentes reutilizáveis (ex.: header, cards, seções de pacotes, formulários), com estilos encapsulados por módulo CSS, promovendo consistência visual, reutilização de código e facilidade de manutenção.</p>
 
 <br>
 <h2>🎨 Arquitetura CSS Modular</h2>
 
-O CSS foi estruturado de forma modular e orientada por responsabilidade, promovendo clareza, reutilização e facilidade de manutenção:
+<strong>O CSS foi estruturado de forma modular e orientada por responsabilidade, promovendo clareza, reutilização e facilidade de manutenção: </strong>
 
-global.css — Reset de estilos, variáveis CSS e regras globais
+<code>global.css</code> — Reset de estilos, variáveis CSS e regras globais
 
-header.css — Cabeçalho e navegação responsiva
+<code>header.css</code> — Cabeçalho e navegação responsiva
 
-hero.css — Seção de destaque principal
+<code>hero.css</code> — Seção de destaque principal
 
-packages.css — Grid responsivo de pacotes
+<code>packages.css</code> — Grid responsivo de pacotes
 
-form.css — Estilização de formulários e componentes interativos
+<code>form.css</code> — Estilização de formulários e componentes interativos
+
 
 <br>
 <h2>♿ Acessibilidade e Usabilidade</h2>
 
-Uso consistente de HTML semântico para suporte a leitores de tela.
+<p>Uso consistente de HTML semântico para suporte a leitores de tela.</p>
 
-Associação correta de label e input em formulários.
+<p>Associação correta de label e input em formulários.</p>
 
-Hierarquia lógica de títulos e seções.
+<p>Hierarquia lógica de títulos e seções.</p>
 
-Atenção a contraste, legibilidade e navegação via teclado.
+<p>Atenção a contraste, legibilidade e navegação via teclado.</p>
 
 <br>
 <h2>🗂️ Gerenciamento de Assets</h2>
 
-Organização de diretórios:
-Estrutura de pastas clara e padronizada, separando arquivos de código dos recursos estáticos.
+<strong>Organização de diretórios: </strong>
+<p>Estrutura de pastas clara e padronizada, separando arquivos de código dos recursos estáticos.</p>
 
-Otimização de imagens:
-Uso de imagens em diferentes resoluções e formatos adequados para reduzir tempo de carregamento.
+<strong>Otimização de imagens: </strong>
+<p>Uso de imagens em diferentes resoluções e formatos adequados para reduzir tempo de carregamento.</p>
 
-Manutenibilidade e escalabilidade:
-Padronização de nomenclatura e organização visando manutenção e evolução do projeto.
+<strong>Manutenibilidade e escalabilidade: </strong>
+<p>Padronização de nomenclatura e organização visando manutenção e evolução do projeto.</p>
 
-Preparação para ambientes produtivos:
-Estrutura compatível com processos de build, versionamento e deploy.
+<strong>Preparação para ambientes produtivos: </strong>
+<p>Estrutura compatível com processos de build, versionamento e deploy.</p>
 
-Estrutura de Pastas:
+<strong>Estrutura de Pastas: </strong>
 
 ```
 ├── index.html          # Markup semântico principal
@@ -104,4 +105,4 @@ Estrutura de Pastas:
 <br>
 <h2>🔗 Acesso ao Projeto</h2>
 
-O projeto está disponível para visualização no link: https://cesarlmoreira.github.io/Site-Jornada-viagens/
+<strong>O projeto está disponível para visualização no link: </strong> https://cesarlmoreira.github.io/Site-Jornada-viagens/
