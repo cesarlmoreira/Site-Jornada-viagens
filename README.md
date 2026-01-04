@@ -94,4 +94,4 @@
 <br>
 <h2>🔗 Acesso ao Projeto</h2>
 
-<p><strong>O projeto está disponível para visualização no link: </strong> https://cesarlmoreira.github.io/Site-Jornada-viagens/</p>
+<p><strong>O projeto está disponível para visualização através do link: </strong> https://cesarlmoreira.github.io/Site-Jornada-viagens/</p>
