@@ -41,7 +41,7 @@
 <br>
 <h2>🎨 Arquitetura CSS Modular</h2>
 
-<p><strong>O CSS foi estruturado de forma modular e orientada por responsabilidade, promovendo clareza, reutilização e facilidade de manutenção: </strong></p>
+<p>O CSS foi estruturado de forma modular e orientada por responsabilidade, promovendo clareza, reutilização e facilidade de manutenção:</p>
 
 <p><code>global.css</code> — Reset de estilos, variáveis CSS e regras globais</p>
 
