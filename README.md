@@ -30,7 +30,7 @@
 <p><strong>Media Queries: </strong>Definição criteriosa de breakpoints para adaptação progressiva do layout em smartphones, tablets e desktops.</p>
 
 <br>
-<h2>🧩 Layouts com Flexbox, CSS Grid e Componentização</h2>
+<h2>🧩 Layouts com CSS Flexbox, Grid e Componentização</h2>
 
 <p><strong>CSS Flexbox: </strong> Utilizado para alinhamento, distribuição e organização de elementos em layouts unidimensionais, como navegação, cabeçalhos e formulários, garantindo flexibilidade no controle de espaçamento e alinhamento.</p>
 
